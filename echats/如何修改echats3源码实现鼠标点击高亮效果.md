@@ -44,6 +44,6 @@ if (itemModel.get('focusNodeAdjacency')) {
     });
 }
 ```
+
 这个nodeName是我添加的一个全局变量，用来存储点击的节点名称，如果连续点击同一个节点，则取消高亮效果。
-效果图：
-![效果图](http://img.blog.csdn.net/20170511092222369?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvdmFtcGlyZWhnZw==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+![效果图](https://github.com/DimonHo/DH_Note/blob/master/echats/images/image1.gif "效果图")
