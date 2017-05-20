@@ -1,9 +1,9 @@
 ![](https://github.com/DimonHo/DH_Note/blob/master/git/images/logo.jpg)
 ## 创建版本库
 ### 本地版本库
-> mkdir DH_Note && cd DH_Note
-> git init
-> git remote add origin git@github.com:DimonHo/DH_Note.git
+> mkdir DH_Note && cd DH_Note  
+> git init  
+> git remote add origin git@github.com:DimonHo/DH_Note.git  
 ### 克隆远程版本库
 > git clone git@github.com:DimonHo/DH_Note.git  
 或者  
