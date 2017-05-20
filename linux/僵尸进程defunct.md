@@ -15,4 +15,4 @@
 
 ##延伸阅读
 在上面，查看某进程的父进程，发现1942的进程的父进程是1，那么1是个什么进程呢？使用ps -ef| grep 1查看发现属于/sbin/init的。
-在这里发现一篇介绍linux特殊进程0、1、2的文章：（http://blog.csdn.net/gatieme/article/details/51566690），想继续深入了解可以去看看。
+在这里发现一篇介绍linux特殊进程0、1、2的文章：[想继续深入了解可以去看看](http://blog.csdn.net/gatieme/article/details/51566690)。
