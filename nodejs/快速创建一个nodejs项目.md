@@ -28,4 +28,7 @@ app.set('view engine', 'html');
 ```
 在进行npm start的时候可能会报错cannot find module ejs，需要安装：`npm install ejs`  
 
+启动后还可能报这样一个错误：  
+> Failed to lookup view "error" in views directory "E:\Code\node\blog\views"  
+提示你找不到error页面，解决办法是只要在views目录下面新建error.html文件就好了。
 ---
