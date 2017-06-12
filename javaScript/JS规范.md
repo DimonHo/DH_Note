@@ -29,7 +29,7 @@ alert(valueA ++ valueB);     //Compile error
 在JavaScript中所有变量都可以使用单个var语句来声明，这样就是组合在一起的语句，以减少整个脚本的执行时间，就如上面代码一样。 
 
 ### 使用直接量创建对象   
-```
+```javascript
 var aTest = new Array(); //替换为
 var aTest = [];
 var aTest = new Object; //替换为
@@ -46,7 +46,7 @@ var oFruit = { color: "red", name: "apple" };
 
 ### 字符串连接  
 如果要连接多个字符串，应该少使用+=，如
-```
+```javascript
 s+=a;
 s+=b;
 s+=c;
