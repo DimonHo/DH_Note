@@ -10,17 +10,17 @@ import org.apache.commons.io.IOUtils;
 import org.junit.Test;
 
 public class TestPath {
-	@Test
-	public void getResourcesFile() throws IOException{
-		//获取ClassLoader对象，通过this.getClass().getClassLoader(); | TestPath.class.getClassLoader();
-		ClassLoader classLoader = ClassLoader.getSystemClassLoader();
+  @Test
+  public void getResourcesFile() throws IOException {
+    //获取ClassLoader对象，通过this.getClass().getClassLoader(); | TestPath.class.getClassLoader();
+    ClassLoader classLoader = ClassLoader.getSystemClassLoader();
     URL url = classLoader.getResource("settings.json");
-		String path = url.getPath();
-		System.out.println(path);
-		InputStream in = classLoader.getResourceAsStream("settings.json");
-		String fileStr = IOUtils.toString(in); //or  IOUtils.toString(in,"UTF-8");
-		System.out.println(fileStr);
-	}
+    String path = url.getPath();
+    System.out.println(path);
+    InputStream in = classLoader.getResourceAsStream("settings.json");
+    String fileStr = IOUtils.toString(in); //or  IOUtils.toString(in,"UTF-8");
+    System.out.println(fileStr);
+  }
 }
 
 ```
