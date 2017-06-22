@@ -1,0 +1,6 @@
+QUERY_THEN_FETCH
+QUERY_AND_FETCH
+DFS_QUERY_THEN_FETCH  ##向所有的分片查询，
+DFS_QUERY_AND_FETCH
+SCAN  ##不计算相关性分数，不排序。
+COUNT ##只返回匹配数目，不返回实际数据。
