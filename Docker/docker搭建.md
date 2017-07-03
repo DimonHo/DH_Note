@@ -40,4 +40,8 @@ Docker 软件包已经包括在默认的 CentOS-Extras 软件源里。因此想�
 查看所有的容器信息， 能获取容器的id  
 `docker ps -a`  
 然后执行如下命令，保存镜像：  
-`docker commit -m="备注" 你的CONTAINER_ID 你的IMAGE`  
+`docker commit -m="备注" 你的CONTAINER_ID 你的IMAGE`  
+ex: `docker commit -m="my centos_image" 477562cd2878 mycentos`  
+再次执行docker images查看自己的镜像列表，发现已经多了一个你自己保存的镜像。
+运行保存的镜像，再次查看/data目录是否有simple_docker文件夹。
+`docker run mycentos ls /data`
