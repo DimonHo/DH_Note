@@ -45,3 +45,14 @@ ex: `docker commit -m="my centos_image" 477562cd2878 mycentos`
 再次执行docker images查看自己的镜像列表，发现已经多了一个你自己保存的镜像。
 运行保存的镜像，再次查看/data目录是否有simple_docker文件夹。
 `docker run mycentos ls /data`
+
+## 检查镜像
+查看正在运行的镜像：  
+`docker ps -l`  
+查看所有的镜像  
+`docker ps -a`  
+查看更详细的镜像信息：  
+`docker inspect mycentos`  
+
+
+
