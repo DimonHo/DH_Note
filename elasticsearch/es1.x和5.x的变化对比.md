@@ -1,4 +1,4 @@
-## 过滤
+### 过滤
 1.x:
 ```
 {
@@ -19,3 +19,6 @@
     }
 }
 ```
+
+### exists 和 missing
+5.x已经不支持missing过滤，只保留了exists。如果需要查询missing，请用not exists.
