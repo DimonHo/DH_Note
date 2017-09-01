@@ -1,3 +1,11 @@
+### 配置文件参数变化
+|before 5.x|after 5.x|
+|:--------|:---------|
+|discovery.zen.ping.timeout: 3s | discovery.zen.ping_timeout: 3s|
+|bootstrap.mlockall: true | bootstrap.memory_lock: true|
+
+
+
 ### scroll API
 - 1.x:(https://www.elastic.co/guide/en/elasticsearch/reference/1.3/search-request-scroll.html)
 ```
